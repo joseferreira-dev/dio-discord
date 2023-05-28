@@ -1,0 +1,23 @@
+.title--small {
+  font-size: 5rem;
+}
+
+.title--medium {
+  font-size: 3.5rem;
+}
+
+.title--big {
+  font-size: 1.5rem;
+}
+
+.text--bold {
+  font-weight: bold;
+}
+
+.text--primary {
+  color: var(--color-primary);
+}
+
+.text--white {
+  color: var(--color-white);
+}

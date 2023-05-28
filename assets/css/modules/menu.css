@@ -1,0 +1,16 @@
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.menu a {
+  color: var(--color-white);
+  font-size: 1.125rem;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.menu a:hover {
+  color: var(--color-primary);
+}

@@ -1,0 +1,29 @@
+/* BASE STYLES */
+@import url('./base/reset.css');
+@import url('./base/variables.css');
+@import url('./base/texts.css');
+
+/* LAYOUT STYLES */
+@import url('./layout/header.css');
+
+/* MODULES STYLES*/
+@import url('./modules/menu.css');
+@import url('./modules/button.css');
+
+
+body {
+  color: var(--color-white);
+  background-color: var(--color-body-background);
+}
+
+.wrapper {
+  width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 6.5rem;
+  padding-right: 6.5rem;
+}
+
+.hidden {
+  display: none;
+}
