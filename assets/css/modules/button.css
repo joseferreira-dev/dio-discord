@@ -2,8 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 1.25rem;
   color: var(--color-white);
+}
+
+.button__primary,
+.button__secondary {
+  color: var(--color-white);
+  transition: .4s;
 }
 
 .button__primary {
@@ -14,11 +19,6 @@
   background-color: var(--color-gray);
 }
 
-.button__primary,
-.button__secondary {
-  transition: .4s;
-}
-
 .button__primary:hover,
 .button__secondary:hover {
   background-color: var(--color-secondary);
@@ -27,11 +27,13 @@
 .button--small {
   height: 3rem;
   border-radius: .75rem;
+  padding: 0 1.25rem;
   font-size: 1.125rem;
 }
 
 .button--big {
   height: 3.5rem;
   border-radius: 1rem;
-  font-size: 1.125rem;
+  padding: 0 2.25rem;
+  font-size: 1rem;
 }

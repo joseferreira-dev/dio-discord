@@ -11,3 +11,20 @@
   --color-body-background: #0B1229;
   --color-section-background: #101934;
 }
+
+body {
+  color: var(--color-white);
+  background-color: var(--color-body-background);
+}
+
+.wrapper {
+  width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 6.5rem;
+  padding-right: 6.5rem;
+}
+
+.hidden {
+  display: none;
+}

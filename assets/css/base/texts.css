@@ -1,5 +1,5 @@
 .title--small {
-  font-size: 5rem;
+  font-size: 1.5rem;
 }
 
 .title--medium {
@@ -7,7 +7,7 @@
 }
 
 .title--big {
-  font-size: 1.5rem;
+  font-size: 5rem;
 }
 
 .text--bold {
@@ -20,4 +20,9 @@
 
 .text--white {
   color: var(--color-white);
+}
+
+.text--medium {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
