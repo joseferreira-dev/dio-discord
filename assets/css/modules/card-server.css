@@ -1,0 +1,52 @@
+.card-server {
+  display: flex;
+  gap: 1.75rem;
+  border-radius: 1.5rem;
+  padding: 1.125rem;
+  border: 2px solid var(--color-section-background);
+  background-color: var(--color-section-background);
+  transition: .4s;
+}
+
+.card-server:hover {
+  border: 2px solid var(--color-primary);
+}
+
+.card-server__profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-width: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: .75rem;
+  padding: .75rem .75rem 1rem;
+  background: linear-gradient(180deg, #1C2954 0%, #2E2543 100%);;
+}
+
+.card-server__profile img {
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.card-server__profile span {
+  font-size: .875rem;
+}
+
+.card-server__info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: .75rem;
+}
+
+.card-server__info h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.card-server__info p {
+  font-size: .875rem;
+}

@@ -1,0 +1,21 @@
+.section h2 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section__cards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2.5%;
+  row-gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.section__cards .card-server {
+  width: 48.75%;
+}
+
+.section__button-group {
+  text-align: center;
+  margin-bottom: 5rem;
+}

@@ -1,9 +1,9 @@
 .main {
   display: flex;
   align-items: center;
-  gap: 6.5rem;
+  gap: 8%;
   margin-top: 5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 .main-group:last-child {
