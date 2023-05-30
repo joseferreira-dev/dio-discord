@@ -1,0 +1,24 @@
+const faqQuestions = document.querySelectorAll('.faq__questions li');
+const faqAnswers = document.querySelectorAll('.faq__answers li');
+
+function activeQuestion(event) {
+  for (let item of faqQuestions) {
+    item.classList.remove('question-item--active');
+  }
+
+  for (let item of faqAnswers) {
+    item.classList.remove('answer-item--active');
+  }
+
+  event.target.classList.add('question-item--active');
+
+  for (var i = 0; i < faqQuestions.length; i++) {
+    if (faqQuestions[i].classList.contains('question-item--active')) {
+      faqAnswers[i].classList.add('answer-item--active');
+    }
+  }
+}
+
+for (let item of faqQuestions) {
+  item.addEventListener('click', activeQuestion);
+}
