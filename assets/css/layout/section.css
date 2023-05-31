@@ -3,8 +3,8 @@
 }
 
 .section h2 {
-  text-align: center;
   margin-bottom: 4rem;
+  text-align: center;
 }
 
 .section__cards {
@@ -21,4 +21,24 @@
 
 .section__button-group {
   text-align: center;
+}
+
+.section__plans h2 {
+  margin-bottom: 0;
+}
+
+.section__plans p {
+  max-width: 34rem;
+  margin: 2rem auto 4rem;
+  text-align: center;
+}
+
+.section__plans .section__cards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 3.5%;
+}
+
+.section__cards .card-plan {
+  width: 31%;
 }
