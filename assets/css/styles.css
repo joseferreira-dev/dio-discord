@@ -43,6 +43,12 @@ body {
   }
 }
 
+@media screen and (max-width: 560px) {
+  .wrapper {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+}
 
 .hidden {
   display: none;
