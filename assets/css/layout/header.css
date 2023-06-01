@@ -2,12 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
 }
 
 .header__logo img {
   width: 12.5rem;
+}
+
+@media screen and (max-width: 560px) {
+  .header__logo img {
+    width: 10rem;
+  }
 }
 
 .header__nav {
@@ -17,7 +24,60 @@
   gap: 2.5rem;
 }
 
+@media screen and (max-width: 1200px) {
+  .header__nav {
+    display: none;
+  }
+}
+
 .header__button-group {
   display: flex;
   gap: 2rem;
+}
+
+.header__icon {
+  display: none;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__icon {
+    display: block;
+  }
+}
+
+.header__icon img {
+  width: 3rem;
+}
+
+.header__nav-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, .975);
+}
+
+.header__nav-mobile .menu {
+  margin-bottom: 2rem;
+}
+
+.header__nav-mobile .menu ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__nav-mobile .menu a {
+  color: #000;
+}
+
+.header__nav-mobile .header__button-group {
+  display: flex;
+  flex-direction: column;
 }

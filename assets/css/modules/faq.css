@@ -11,6 +11,23 @@
   width: 50%;
 }
 
+@media screen and (max-width: 560px) {
+  .faq {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .faq__questions {
+    border-bottom: 1px solid var(--color-primary);
+    padding-bottom: 1rem;
+  }
+
+  .faq__questions,
+  .faq__answers {
+    width: 100%;
+  }
+}
+
 .faq__questions li {
   border-radius: .75rem;
   padding: 1rem;

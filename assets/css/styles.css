@@ -15,3 +15,35 @@
 @import url('./modules/card-server.css');
 @import url('./modules/faq.css');
 @import url('./modules/card-plan.css');
+
+body {
+  color: var(--color-white);
+  background-color: var(--color-body-background);
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 6.5rem;
+  padding-right: 6.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .wrapper {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+
+.hidden {
+  display: none;
+}

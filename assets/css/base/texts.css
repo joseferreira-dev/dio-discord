@@ -7,7 +7,17 @@
 }
 
 .title--big {
-  font-size: 5rem;
+  font-size: 4.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .title--medium {
+    font-size: 3rem;
+  }
+
+  .title--big {
+    font-size: 4rem;
+  }
 }
 
 .text--medium {
