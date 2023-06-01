@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://joseferreira-dev.github.io/dio-discord/"><img src="banner.jpg"></a>
+  <a href="https://joseferreira-dev.github.io/dio-project-discord/"><img src="banner.jpg"></a>
 </div>
 <br>
 
