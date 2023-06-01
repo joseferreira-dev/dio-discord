@@ -5,11 +5,11 @@
 
 # Project Discord (Landing Page)
 
-Project of a landing page for Discord, made with the aim of practicing CSS3 concepts studied during the CSS3 Web Developer course by DigitalInnovationOne.
+Design of a landing page for Discord, made with the aim of practicing the concepts studied during the CSS3 Web Developer course by DigitalInnovationOne.
 
-This is an improved and more advanced version compared to the initially proposed project, and it is also responsive. It is a static page, made only with HTML and CSS. A few lines of JavaScript were used just to enable the display of the menu on mobile devices.
+The original project was a clone of the current Discord platform homepage, I chose to make a different version of the project. It is a static page, made only with HTML, CSS and JavaScript.
 
-During the decoding of this project, some concepts from the SMACSS (architecture) and BEM (nomenclature) standards were applied for the organization of style sheets.
+During the decoding of this project, some concepts from the SMACSS (architecture) and BEM (nomenclature) standards were applied to the organization of stylesheets.
 <br>
 <br>
 
@@ -39,4 +39,4 @@ To visualize this project it is not necessary to install any auxiliary tool, jus
 
 ## Acknowledgements
 
-The original design used as a basis for the development of this project was made by Ilias Miah (<a href="https://dribbble.com/ilias000">@ilias000</a>).
+The original designs used as a basis for the development of this project was made by Ilias Miah (<a href="https://dribbble.com/ilias000">@ilias000</a>).
